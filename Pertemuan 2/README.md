@@ -57,4 +57,4 @@ Rangkumlah materi dari codelab ini menjadi poin-poin penting yang dapat Anda gun
 Buatlah slide yang berisi penjelasan dan contoh eksekusi kode tentang perbedaan Null Safety dan Late variabel ! (Khusus soal ini kelompok berupa link google slide)
 
 **Jawaban:**
-(Link Google Slide)[https://google.com]
+[Link Google Slide](https://google.com)
