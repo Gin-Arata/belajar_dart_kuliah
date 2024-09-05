@@ -52,3 +52,9 @@ Rangkumlah materi dari codelab ini menjadi poin-poin penting yang dapat Anda gun
         - ```main```: Merupakan nama dari function/method
         - ```()```: Merupakan tempat sebuah parameter pada function
         - ```{ // Kode Anda }```: Merupakan tempat untuk menaruh kode yang akan dieksekusi oleh dart
+
+# Soal 4
+Buatlah slide yang berisi penjelasan dan contoh eksekusi kode tentang perbedaan Null Safety dan Late variabel ! (Khusus soal ini kelompok berupa link google slide)
+
+**Jawaban:**
+(Link Google Slide)[]
