@@ -60,3 +60,38 @@ Code : <br>
 Output : <br>
     ![output2.2](./image/praktikum2.2-output.png) <br>
 Penjelasan : <br> Dari kode tersebut dart akan menjalankan do-while setidaknya sekali sebelum melakukan looping. Setelah itu dart akan melakukan looping hingga mencapai batas conditions pada while.
+
+- Praktikum 3 <br>
+
+3.1 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+```
+for (Index = 10; index < 27; index) {
+  print(Index);
+}
+```
+
+Code Error : <br>
+    ![image3.1-code-error](./image/praktikum3.1-code-error.png) <br>
+Code Fixed: <br>
+    ![image3.1-code](./image/praktikum3.1-code.png) <br>
+Output : <br>
+    ![output3.1](./image/praktikum3.1-output.png) <br>
+Penjelasan : <br>
+Dari kode tersebut dart akan melakukan perulangan for dimulai dari value 0 hingga kurang dari 27 dan di setiap perulangan akan melakukan print index.
+
+3.2 Tambahkan kode program berikut di dalam for-loop, lalu coba eksekusi (Run) kode Anda.
+```
+If (Index == 21) break;
+Else If (index > 1 || index < 7) continue;
+print(index);
+```
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.
+
+Code Error : <br>
+    ![image3.2-code-error](./image/praktikum3.2-code-error.png) <br>
+Code Fixed : <br>
+    ![image3.2-code-fixed](./image/praktikum3.2-code.png) <br>
+Output : <br>
+    ![output3.2](./image/praktikum3.2-output.png) <br>
+Penjelasan : <br>
+Dari kode tersebut dart akan melakukan perulangan for hingga kurang dari 27. Dan ketika value dari variable index mencapai 21 dart akan melakukan break terhadap looping dan jika value variable index lebih dari 1 atau kurang dari 7 dart akan melakukan print index dan continue perulangan.
