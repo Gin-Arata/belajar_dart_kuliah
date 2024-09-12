@@ -3,14 +3,16 @@
 ## Soal 1
 Silakan selesaikan Praktikum 1 sampai 3, lalu dokumentasikan berupa screenshot hasil pekerjaan beserta penjelasannya!
 
-- Praktikum 1
+- Praktikum 1 <br>
+
 1.1. Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan
 
 Code : <br>
     ![image1.1-code](./image/praktikum1-code.png)<br>
 Output : <br>
     ![image1.1-output](./image/output-praktikum1.1.png)<br>
-Penjelasan :<br> Dari kode tersebut dart akan melakukan pengecekan apakah value dari variabel test yaitu "test 2" sesuai dengan if conditions-nya atau tidak jika sesuai dart akan melakukan print output berupa "Test2". Jika value merupakan "test 1" akan mengembalikan output "Test1". Jika value tidak cocok dengan seluruh if conditions akan mengembalikan output "Something else"
+Penjelasan :<br> 
+Dari kode tersebut dart akan melakukan pengecekan apakah value dari variabel test yaitu "test 2" sesuai dengan if conditions-nya atau tidak jika sesuai dart akan melakukan print output berupa "Test2". Jika value merupakan "test 1" akan mengembalikan output "Test1". Jika value tidak cocok dengan seluruh if conditions akan mengembalikan output "Something else"
 
 1.2 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 ```
@@ -30,6 +32,7 @@ Output : <br>
 Penjelasan : <br> Dari kode tersebut akan melakukan return output yaitu "Kebenaran" karena pada statement menggunakan "==" operator yang dimana akan melakukan pengecekan value dan tipe data jika pada dart.
 
 - Praktikum 2 <br>
+
 2.1 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 ```
 while (counter < 33) {
@@ -95,3 +98,34 @@ Output : <br>
     ![output3.2](./image/praktikum3.2-output.png) <br>
 Penjelasan : <br>
 Dari kode tersebut dart akan melakukan perulangan for hingga kurang dari 27. Dan ketika value dari variable index mencapai 21 dart akan melakukan break terhadap looping dan jika value variable index lebih dari 1 atau kurang dari 7 dart akan melakukan print index dan continue perulangan.
+
+## Soal 2
+Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
+
+Jawaban : 
+
+Code : 
+```
+void main() {
+  for (int i = 0; i <= 201; i++) {
+    if (i % 2 != 0) {
+      print("Bilangan Prima: $i");
+      print("Gaco Razan Kamil - 2241720091");
+    }
+  }
+}
+```
+
+Output : 
+```
+Bilangan Prima: 193
+Gaco Razan Kamil - 2241720091
+Bilangan Prima: 195
+Gaco Razan Kamil - 2241720091
+Bilangan Prima: 197
+Gaco Razan Kamil - 2241720091
+Bilangan Prima: 199
+Gaco Razan Kamil - 2241720091
+Bilangan Prima: 201
+Gaco Razan Kamil - 2241720091
+```
