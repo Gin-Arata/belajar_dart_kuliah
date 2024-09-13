@@ -127,14 +127,14 @@ void main() {
 
 Output : 
 ```
-Bilangan Prima: 193
+Bilangan Prima: 181
 Gaco Razan Kamil - 2241720091
-Bilangan Prima: 195
+Bilangan Prima: 191
+Gaco Razan Kamil - 2241720091
+Bilangan Prima: 193
 Gaco Razan Kamil - 2241720091
 Bilangan Prima: 197
 Gaco Razan Kamil - 2241720091
 Bilangan Prima: 199
-Gaco Razan Kamil - 2241720091
-Bilangan Prima: 201
 Gaco Razan Kamil - 2241720091
 ```
