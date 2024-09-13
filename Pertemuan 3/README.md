@@ -107,8 +107,17 @@ Jawaban :
 Code : 
 ```
 void main() {
-  for (int i = 0; i <= 201; i++) {
-    if (i % 2 != 0) {
+  for (int i = 2; i <= 201; i++) {
+    bool isPrime = true;
+
+    for (int j = 2; j <= i / 2; j++) {
+      if (i % j == 0) {
+        isPrime = false;
+        break;
+      }
+    }
+
+    if (isPrime) {
       print("Bilangan Prima: $i");
       print("Gaco Razan Kamil - 2241720091");
     }
@@ -118,14 +127,14 @@ void main() {
 
 Output : 
 ```
-Bilangan Prima: 193
+Bilangan Prima: 181
 Gaco Razan Kamil - 2241720091
-Bilangan Prima: 195
+Bilangan Prima: 191
+Gaco Razan Kamil - 2241720091
+Bilangan Prima: 193
 Gaco Razan Kamil - 2241720091
 Bilangan Prima: 197
 Gaco Razan Kamil - 2241720091
 Bilangan Prima: 199
-Gaco Razan Kamil - 2241720091
-Bilangan Prima: 201
 Gaco Razan Kamil - 2241720091
 ```
