@@ -100,4 +100,41 @@
                 ![Run Praktikum 4 Langkah 5](./image/Praktikum%204%20Langkah%205%20-%20Run(KondisiManager).png)
                 - Variable Login Tidak Memiliki Value yang Sama seperti pada kondisi
                 ![Run Praktikum 4 Langkah 5](./image/Praktikum%204%20Langkah%205%20-%20Run(KondisiSelainManager).png)
-        - Penjelasan : Pada ko
+        - Penjelasan : Pada kode tersebut kita melakukan inisialisasi variable login dengan value ```'Manager'``` dan jika value pada variable tersebut sesuai dengan kondisinya maka value pada variable nav2 akan menampilkan ```Inventory``` dan jika bukan ```'Manager'``` kondisi tersebut akan menampilkan selain ```Inventory```.
+    - Langkah 6
+        - Screenshot :
+            - Code
+            ![Code Praktikum 4 Langkah 6](./image/Praktikum%204%20Langkah%206%20-%20Code.png)
+            - Run
+            ![Run Praktikum 4 Langkah 6](./image/Praktikum%204%20Langkah%206%20-%20Run.png)
+        - Penjelasan : Pada kode tersebut kita melakukan inisialisasi listOfInts dengan value ```[1, 2, 3]``` dan melakukan inisialisasi untuk variable listOfStrings dengan value ```['#0', for(var i in listOfInts) '#$i']``` maksud dari syntax tersebut yaitu dart akan melakukan looping terhadap variable listOfInts yang kemudian akan mengambil value dari array listOfInts. Selanjutnya memasukkan variable i tersebut ke dalam sebuah string dan menampilkan variable listOfStrings.
+- Praktikum 5
+    - Langkah 1 & 2
+        - Screenshot :
+            - Code
+            ![Code Praktikum 5 Langkah 1 & 2](./image/Praktikum%205%20Langkah%201%20-%20Code.png)
+            - Run
+            ![Run Praktikum 5 Langkah 1 & 2](./image/Praktikum%205%20Langkah%201%20-%20Run.png)
+        - Penjelasan : Pada kode tersebut kita melakukan inisialisasi variable record dengan mendeklarasikan record yaitu ```('first', a: 2, b: true, 'last')```. Pada record kita bisa memberikan sebuah ```key: value``` dan string biasa untuk datanya.
+    - Langkah 3 
+        - Screenshot : 
+            - Code
+            ![Code Praktikum 5 Langkah 3](./image/Praktikum%205%20Langkah%203%20-%20Code.png)
+            - Run <br>
+            ![Run Praktikum 5 Langkah 3](./image/Praktikum%205%20Langkah%203%20-%20Run.png)
+        - Penjelasan : Pada kode tersebut kita membuat sebuah function baru yaitu tukar dengan tipe data pada recordnya yaitu int dan untuk return dari function menggunakan tipe data int. Pada function tersebut kita melakukan inisialisasi variabel a dan b yang valuenya diambil dari parameter record. Setelah itu kita melakukan return b dan a agar angka menjadi terbalik. Untuk menggunakan function tukar kita melakukan deklarasi pada function main yang dimana hasil atau return nilai dari function tersebut dimasukkan di variable tukarAngka kemudian di tampilkan menggunakan print.
+    - Langkah 4
+        - Screenshot :
+            - Code 
+            ![Code Praktikum 5 Langkah 4](./image/Praktikum%205%20Langkah%204%20-%20Code.png)
+            - Run <br>
+            ![Run Praktikum 5 Langkah 4](./image/Praktikum%205%20Langkah%204%20-%20Run.png)
+        - Penjelasan : Pada kode tersebut kita melakukan inisialisasi variable mahasiswa dengan menggunakan record yang memiliki tipe data ```String dan int```. Kemudian kita menampilkan variable mahasiswa menggunakan print.
+    - Langkah 5
+        - Screenshot :
+            - Code
+            ![Code Praktikum 5 Langkah 5](./image/Praktikum%205%20Langkah%205%20-%20Code.png)
+            - Run <br>
+            ![Run Praktikum 5 Langkah 5](./image/Praktikum%205%20Langkah%205%20-%20Run.png)
+        - Penjelasan : Pada kode tersebut kita melakukan inisialisasi variabel mahasiswa2 yang diisi valuenya menggunakan record. Kemudian menampilkan isi data pada variable record dengan memanggil keynya dan urutan index pada record untuk string.
+
