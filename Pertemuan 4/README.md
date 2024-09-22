@@ -67,4 +67,37 @@
             ![Code Praktikum 4 Langkah 1](./image/Praktikum%204%20Langkah%201%20-%20Code.png)
             - Run
             ![Run Praktikum 4 Langkah 1](./image/Praktikum%204%20Langkah%201%20-%20Run.png)
-        - Penjelasan : 
+        - Penjelasan : Pada kode tersebut kita melakukan inisialisasi variabel list dan list2. Yang dimana pada list diisi dengan value ```1, 2, 3``` dan pada list2 diisi dengan ```0, ...list```. Arti dari ```...list``` adalah dia akan mengambil semua value yang dimiliki oleh variabel list. Kemudian value tersebut akan dimasukkan ke dalam variable list2. 
+    - Langkah 3
+        - Screenshot :
+            - Code
+            ![Code Praktikum 4 Langkah 3](./image/Praktikum%204%20Langkah%203%20-%20Code.png)
+            - Run
+            ![Run Praktikum 4 Langkah 3](./image/Praktikum%204%20Langkah%203%20-%20Run.png)
+        - Penjelasan : Pada kode tersebut kita melakukan inisialisasi variable list1 dengan value ```1, 2, null``` dan variable list3 dengan value ```0, ...?list1```. Maksud dari spread operator yang dikasih dengan tanda tanya adalah bahwa ada kemungkinan jika value pada variable list1 ada data yang null sehingga kita perlu melakukan null-aware pada spread operator tersebut.
+    - Langkah 4
+        - Screenshot :
+            - Code
+                - Promo Active False
+                ![Code Praktikum 4 Langkah 4](./image/Praktikum%204%20Langkah%204%20-%20Code(PromoActiveFalse).png)
+                - Promo Active True
+                ![Code Praktikum 4 Langkah 4](./image/Praktikum%204%20Langkah%204%20-%20Code(PromoActiveTrue).png)
+            - Run
+                - Promo Active False
+                ![Run Praktikum 4 Langkah 4](./image/Praktikum%204%20Langkah%204%20-%20Run(PromoActiveFalse).png)
+                - Promo Active True
+                ![Run Praktikum 4 Langkah 4](./image/Praktikum%204%20Langkah%204%20-%20Run(PromoActiveTrue).png)
+        - Penjelasan : Pada kode tersebut kita melakukan inisialisasi variable bertipe bool yaitu promoActive dan pada variable nav kita melakukan inisialisasi variable dengan value ```'Home', 'Furniture', 'Plants', 'Kondisi'```. Pada value di variable nav terdapat suatu kondisi dimana kondisi tersebut akan menampilkan value ```outlet``` jika variable ```promoActive``` bernilai ```true``` dan jika variable ```promoActive``` bernilai ```false```. variable tersebut tidak akan memasukkkan vaLuenya.
+    - Langkah 5
+        - Screenshot : 
+            - Code
+                - Variable Login Memiliki Value yang Sama seperti pada kondisi
+                ![Code Praktikum 4 Langkah 5](./image/Praktikum%204%20Langkah%205%20-%20Code(KondisiManager).png)
+                - Variable Login Tidak Memiliki Value yang Sama seperti pada kondisi
+                ![Code Praktikum 4 Langkah 5](./image/Praktikum%204%20Langkah%205%20-%20Code(KondisiSelainManager).png)
+            - Run
+                - Variable Login Memiliki Value yang Sama seperti pada kondisi
+                ![Run Praktikum 4 Langkah 5](./image/Praktikum%204%20Langkah%205%20-%20Run(KondisiManager).png)
+                - Variable Login Tidak Memiliki Value yang Sama seperti pada kondisi
+                ![Run Praktikum 4 Langkah 5](./image/Praktikum%204%20Langkah%205%20-%20Run(KondisiSelainManager).png)
+        - Penjelasan : Pada ko
