@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world/basic_widgets/loading_cuppertino.dart';
 import 'basic_widgets/text_widget.dart';
 import 'basic_widgets/image_widget.dart';
 
@@ -52,7 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             // const MyImageWidget(),
-            const MyTextWidget(),
+            // const MyTextWidget(),
+            // MyCupertino(),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
