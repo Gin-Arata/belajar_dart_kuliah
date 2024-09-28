@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hello_world/basic_widgets/alert_widget.dart';
+import 'package:hello_world/basic_widgets/date_picker_widget.dart';
 import 'package:hello_world/basic_widgets/input_widget.dart';
 
 void main() {
@@ -55,6 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             const MyAlertDialog(),
             const MyInputWidget(),
+            const MyDatePicker(),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineLarge,
