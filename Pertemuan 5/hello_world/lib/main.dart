@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hello_world/basic_widgets/alert_widget.dart';
+import 'package:hello_world/basic_widgets/input_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -53,6 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed the button this many times:',
             ),
             const MyAlertDialog(),
+            const MyInputWidget(),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineLarge,
