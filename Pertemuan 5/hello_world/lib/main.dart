@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world/basic_widgets/fab_widget.dart';
 import 'package:hello_world/basic_widgets/loading_cuppertino.dart';
 import 'basic_widgets/text_widget.dart';
 import 'basic_widgets/image_widget.dart';
@@ -55,6 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
             // const MyImageWidget(),
             // const MyTextWidget(),
             // MyCupertino(),
+            const MyFAB(),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
